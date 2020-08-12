@@ -1,6 +1,7 @@
 package ru.sbrf.atm.server;
 
 public class Account {
+  private String accountNumber;
   private Currency currency;
   private long amount;
 

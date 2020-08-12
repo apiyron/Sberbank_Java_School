@@ -3,12 +3,12 @@ package ru.sbrf.atm.server;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Client {
+public class User {
   private String name;
   private long id;
   private Map<Currency, Account> accounts;
 
-  public Client(String name, long id) {
+  public User(String name, long id) {
     this.name = name;
     this.id = id;
     this.accounts = new HashMap<Currency, Account>();
